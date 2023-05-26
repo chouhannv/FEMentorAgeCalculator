@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+  
+ 
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="calculator">
+    <div class="date">
+      <div class="day date_item">
+        <span class="date_text date_textDay">Day</span>
+        <input class="input input_day" type="number" placeholder="DD">
+        <small class="err_day"></small>
+      </div>
+
+      <div class="month date_item">
+        <span class="date_text date_textMonth">Month</span>
+        <input class="input input_month" type="number" placeholder="MM">
+        <small class="err_month"></small>
+      </div>
+
+      <div class="year date_item">
+        <span class="date_text date_textYear">Year</span>
+        <input class="input input_year" type="number" placeholder="YYYY">
+        <small class="err_year"></small>
+      </div>
+
+      <button class="btn">
+        <img class="arrow" src="./assets/images/icon-arrow.svg" alt="">
+      </button>
+    </div>
+
+    <div class="result">
+      <div class="result_year u_marginLeft">
+        <span class="output_year purple_text">--</span> years
+      </div>
+      <div class="result_month u_marginLeft">
+        <span class="output_month purple_text">--</span> months
+      </div>
+      <div class="result_day u_marginLeft">
+        <span class="output_day purple_text">--</span> days
+      </div>
+    </div>
+
+  </div>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Vinod Chouhan</a>.
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
